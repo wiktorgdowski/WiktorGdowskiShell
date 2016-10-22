@@ -16,7 +16,7 @@ In order to run this shell as a standard application from within an existing com
 This command installs C, C++, Python compilers and all their libraries. To compile the code, user must first navigate to the directory in which it is stored. Once in a proper directory wgsh.c can be compiled using:<br />
 **_gcc wgsh.c -o wgsh_**<br />
 and run using:<br />
-**_./wghs_**<br />
+**_./wgsh_**<br />
 To create a new user:<br />
 **_sudo adduser testuser_**<br />
 User then has to type in his own password and then pick a password for the new user. To set wgsh as a default login shell for an account on the system, the program must be first moved into /usr/bin:<br />
