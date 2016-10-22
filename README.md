@@ -17,3 +17,13 @@ This command installs C, C++, Python compilers and all their libraries. To compi
 **_gcc wgsh.c -o wgsh_**<br />
 and run using:<br />
 **_./wghs_**<br />
+To create a new user:<br />
+**_sudo adduser testuser_**<br />
+User then has to type in his own password and then pick a password for the new user. To set wgsh as a default login shell for an account on the system, the program must be first moved into /usr/bin:<br />
+**_sudo cp wgsh /usr/bin_**<br />
+To set this shell as a default shell to the new user:<br />
+**_sudo chsh -s /usr/bin/wgsh testuser_**<br />
+Now, everytime we log in as a testuser:<br />
+**_su testuser_**<br />
+The custom shell will be initiated. To exit:
+**_exit_**
