@@ -15,5 +15,5 @@ In order to run this shell as a standard application from within an existing com
 **_sudo apt-get install build-essential_**<br />
 This command installs C, C++, Python compilers and all their libraries. To compile the code, user must first navigate to the directory in which it is stored. Once in a proper directory wgsh.c can be compiled using:<br />
 **_gcc wgsh.c -o wgsh_**<br />
-and run using:_**<br />
+and run using:<br />
 **_./wghs_**<br />
