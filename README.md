@@ -10,7 +10,7 @@ The shell allows the user to run two internal commands: dt and ud. In the case o
 ###Extra Functionality:
 The shell allows the user to run a help command. User can type in help to display functionality of all internal and external commands.
 
-###How To Run
+###How To Run:
 In order to run this shell as a standard application from within an existing command-shell on a Linux system, a user must first install C on his machine using:<br />
 **_sudo apt-get install build-essential_**<br />
 This command installs C, C++, Python compilers and all their libraries. To compile the code, user must first navigate to the directory in which it is stored. Once in a proper directory wgsh.c can be compiled using:<br />
