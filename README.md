@@ -12,8 +12,8 @@ The shell allows the user to run a help or h command. User can type in help/h on
 
 #How to run
 In order to run this shell as a standard application from within an existing command-shell on a Linux system a user must first install C on his machine using:<br />
-_sudo apt-get install build-essential_**<br />
+**_sudo apt-get install build-essential_**<br />
 This command installs C, C++, Python compilers and all their libraries. To compile the code, user must first navigate to the directory in which it is stored. Once in a proper directory wgsh.c can be compiled using:<br />
-_gcc wgsh.c -o wgsh_**<br />
+**_gcc wgsh.c -o wgsh_**<br />
 and run using:_**<br />
-_./wghs<br />
+**_./wghs_**<br />
