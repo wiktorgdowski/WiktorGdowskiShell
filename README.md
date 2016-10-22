@@ -25,5 +25,5 @@ To set this shell as a default shell to the new user:<br />
 **_sudo chsh -s /usr/bin/wgsh testuser_**<br />
 Now, everytime we log in as a testuser:<br />
 **_su testuser_**<br />
-The custom shell will be initiated. To exit:
-**_exit_**
+The custom shell will be initiated. To exit:<br />
+**_exit_**<br />
